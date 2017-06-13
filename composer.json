@@ -1,0 +1,22 @@
+{
+    "name": "dlinc/twig-hml",
+    "description": "html twig extension",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "davidDuymelinck",
+            "email": "dlinck.d+github@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twig/twig": ">=1.12",
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dlinc\\Twig\\": "src/"
+        }
+    }
+}
