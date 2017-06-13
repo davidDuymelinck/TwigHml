@@ -11,6 +11,6 @@ The article example can now be written as:
     ] %}
     {% set listItemAttr = create_attribute().addClass(listItemClasses) %}
     
-    <li {{ listItemAttr }}>Item</li>
+    <li {{ listItemAttr|raw }}>Item</li>
     
 The main benefit of using the Attribute class is that you can move logic to the top of your template, instead of mixing it with the html. A themer will understand that in order to add a class now, the listItemClasses array needs to be extended.
